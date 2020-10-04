@@ -8,7 +8,6 @@ import java.util.List;
 
 @RequestMapping("/api/v1")
 @RestController
-@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600)
 public class ApiController {
 
     @Autowired
