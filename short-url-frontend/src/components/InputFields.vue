@@ -21,7 +21,6 @@ export default {
   },
   methods: {
     postNewUrl() {
-      console.log("test");
       axios
         .post("/api/v1/save", {
           fullUrl: this.fullUrl,
